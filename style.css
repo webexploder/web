@@ -1201,7 +1201,7 @@ video {
 
 
 .nextsection{
-    height: 1000px;
+    height: 900px;
     width: 100%;
     overflow: hidden;
     background-color: black;
@@ -1263,19 +1263,27 @@ video {
     .content h2{
         font-size: 2rem;
     }
+
+    .nextsection{
+    height: 700px;
+   }
 }
 
-@media screen and (min-width:622px)  and  (max-width:1500px){
-  .nextsection{
+@media only screen and  (min-width:1000px) and  (max-width:1024px){
+    .nextsection{
     height: 700px;
   }
+
 }
 
-@media screen and (max-width:621px){
-  .nextsection{
-    height: 750px;
+ @media screen and (min-width:622px)  and  (max-width:1500px){
+    .nextsection{
+      height: 700px;
+    }
+
   }
-}
+
+
   /*------------------------------contact section-----------------------------------*/
   
 
