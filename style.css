@@ -1201,7 +1201,7 @@ video {
 
 
 .nextsection{
-    height: 1000px;
+    height: 1200px;
     width: 100%;
     overflow: hidden;
     background-color: black;
@@ -1271,7 +1271,7 @@ video {
 
 @media screen and (min-width:622px)  and  (max-width:1500px){
   .nextsection{
-    height: 700px;
+    height: 800px;
   }
 }
 
